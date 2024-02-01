@@ -15,5 +15,8 @@ public class Degrees {
     double cc = (num - 32) * 5 / 9;
 
     System.out.printf("섭씨 온도 %.2f", cc);
+
+    int intvalue = 123456789;
+    byte nytevalue = (byte) intvalue;
   }
 }

@@ -13,5 +13,8 @@ public class Pencil {
 
     System.out.printf("한명당 = %d", Pencil / st);
     System.out.printf("나머지= %d", Pencil % st);
+
+    int intvalue = 123456789;
+    byte bytevalue = (byte) intvalue;
   }
 }
