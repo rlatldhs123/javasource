@@ -27,6 +27,6 @@ public class MaxValue {
       max = num3;
     }
 
-    System.out.println("세 수 중 가장 큰 수", +max);
+    System.out.println("세 수 중 가장 큰 수" + max);
   }
 }
