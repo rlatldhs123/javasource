@@ -21,15 +21,20 @@ public class Bank {
         case 1:
           // 예금액 입력 받은 후 잔액 추가
 
-          System.out.print("예금액 >>>");
-
-          balance += sc.nextInt();
+          System.out.print("예금액 >>> (원)");
+          int num = balance += sc.nextInt();
+          System.out.println("총 잔액: " + balance);
 
           break;
         case 2:
           // 출금액 입력 받은 후 잔액 감소
           System.out.print("출금액 >>");
-          balance -= sc.nextInt();
+          int outnum = sc.nextInt();
+          if (balance - outnum < 0) {
+            System.out.println("프로그램 오류");
+          } else balance -= outnum;
+
+          System.out.println("총 잔액: " + balance);
 
           break;
         case 3:

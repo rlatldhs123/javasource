@@ -1,0 +1,155 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ArrayEx18",
+      "request": "launch",
+      "mainClass": "array.ArrayEx18",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx17",
+      "request": "launch",
+      "mainClass": "array.ArrayEx17",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx16",
+      "request": "launch",
+      "mainClass": "array.ArrayEx16",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx15",
+      "request": "launch",
+      "mainClass": "array.ArrayEx15",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx14",
+      "request": "launch",
+      "mainClass": "array.ArrayEx14",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx13",
+      "request": "launch",
+      "mainClass": "array.ArrayEx13",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx1",
+      "request": "launch",
+      "mainClass": "array.ArrayEx1",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx10",
+      "request": "launch",
+      "mainClass": "array.ArrayEx10",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx11",
+      "request": "launch",
+      "mainClass": "array.ArrayEx11",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx12",
+      "request": "launch",
+      "mainClass": "array.ArrayEx12",
+      "projectName": "ch_3array_dab2fba9",
+      "args": "${command:SpecifyProgramArgs}"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx2",
+      "request": "launch",
+      "mainClass": "array.ArrayEx2",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx3",
+      "request": "launch",
+      "mainClass": "array.ArrayEx3",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx4",
+      "request": "launch",
+      "mainClass": "array.ArrayEx4",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx5",
+      "request": "launch",
+      "mainClass": "array.ArrayEx5",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx6",
+      "request": "launch",
+      "mainClass": "array.ArrayEx6",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx8",
+      "request": "launch",
+      "mainClass": "array.ArrayEx8",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArrayEx9",
+      "request": "launch",
+      "mainClass": "array.ArrayEx9",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "ArryayEx7",
+      "request": "launch",
+      "mainClass": "array.ArryayEx7",
+      "projectName": "ch_3array_dab2fba9"
+    },
+    {
+      "type": "java",
+      "name": "asdfasdf",
+      "request": "launch",
+      "mainClass": "asdfasdf",
+      "projectName": "ch_3array_dab2fba9"
+    }
+  ]
+}
