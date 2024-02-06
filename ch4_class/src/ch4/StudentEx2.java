@@ -17,6 +17,7 @@ public class StudentEx2 {
 
     // 주소변경
     obj.changerAddr("서울시 중랑구"); // 위와 같이 실행 한다
+    obj.setAddr("서울시 중랑구"); // set.addr 도 똑같은 역할을 한다
 
     // void changerAddr(String addr) {
     //     // apaqjqustn addr 의 값을 변경
@@ -28,15 +29,20 @@ public class StudentEx2 {
     // 주소 변경 확인
     System.out.println(obj);
     Student2 obj2 = new Student2(); //<<== new 라는 구문은 생성자를 호출 한다는 뜻
+    obj2.setId("20241252");
+    obj2.setHp("010-5385-9803");
+    obj2.setName("박지성");
+    obj2.setAddr("경기도 성남시"); // get set 생성자로 편리하게 바꿀수 있다
+
+    Student2 obj4 = new Student2(); // 디폴트 생성자를 일단 만든다 1_
 
     System.out.println(obj2); // 데이터를 넣지 않았기에  null 값이 뜬다
 
     obj.changerHp("010-5385-9803"); // 위와 같이 실행 한다
+    obj.setHp("010-5385-9803"); // 위와 같이 실행 한다
 
     //   void changerHp(String hp) {
     //     this.hp = hp;
-
-    System.out.println(obj);
 
     // 생성자는 멤버 변수의 값을 초기화 하는게 목적이다
 
