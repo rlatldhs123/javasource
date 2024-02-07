@@ -10,6 +10,7 @@ public class MymathEx {
     //     this.num2 = num2;
     //
     //non - static 메소드 호출
+    System.out.println("num1의 값 : " + mymath.getNum1());
 
     System.out.println("add() " + mymath.add());
     System.out.println("sub() " + mymath.subtrack());
@@ -22,5 +23,7 @@ public class MymathEx {
     System.out.println("static sub() " + Mymath.subtrack(300l, 200l));
     System.out.println("static mult() " + Mymath.multiply(300l, 200l));
     System.out.println("static div() " + Mymath.divide(300l, 200l));
+
+    System.out.println(mymath.getNum1());
   }
 }

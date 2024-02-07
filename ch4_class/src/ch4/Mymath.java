@@ -42,4 +42,20 @@ public class Mymath {
   static long divide(long num1, long num2) {
     return num1 / num2;
   }
+
+  public long getNum1() {
+    return num1;
+  }
+
+  public void setNum1(long num1) {
+    this.num1 = num1;
+  }
+
+  public long getNum2() {
+    return num2;
+  }
+
+  public void setNum2(long num2) {
+    this.num2 = num2;
+  }
 }

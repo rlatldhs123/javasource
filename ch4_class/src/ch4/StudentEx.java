@@ -11,7 +11,9 @@ public class StudentEx {
     System.out.println(student.name); // null
     System.out.println(student.addr); // null
     System.out.println(student.hp); // null
-    System.out.println(student.id);
+
+    System.out.println(student);
+    print(student);
 
     // 생성된 인스턴스에 값 할당
 
@@ -40,5 +42,15 @@ public class StudentEx {
     System.out.println(student2.name);
     System.out.println(student2.addr);
     System.out.println(student2.hp);
+
+    print(student2);
+  }
+
+  public static void print(Student student) {
+    System.out.println(student); // ch4.Student@5ca881b5 주소
+    System.out.println(student.id); // null
+    System.out.println(student.name); // null
+    System.out.println(student.addr); // null
+    System.out.println(student.hp); // null
   }
 }
