@@ -21,5 +21,6 @@ public abstract class Converter {
     double val = scanner.nextDouble();
     double res = Convert(val);
     System.out.println("변환결과: " + res + getDestString() + "입니다");
+    scanner.close();
   }
 }

@@ -2,15 +2,16 @@ package exam2;
 
 public abstract class Odd {
 
-  private int odd;
+  private int n;
 
   public Odd(int odd) {
-    this.odd = odd;
+    this.n = n;
   }
 
   public int getOdd() {
-    return odd;
+    return n;
   }
 
   abstract boolean isOdd();
 }
+

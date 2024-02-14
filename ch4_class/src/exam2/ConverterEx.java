@@ -1,23 +1,9 @@
 package exam2;
 
-public class ConverterEx extends Converter {
+public class ConverterEx {
 
-  @Override
-  protected double Convert(double src) {}
-
-  @Override
-  protected String getSrcString() {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException(
-      "Unimplemented method 'getSrcString'"
-    );
-  }
-
-  @Override
-  protected String getDestString() {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException(
-      "Unimplemented method 'getDestString'"
-    );
+  public static void main(String[] args) {
+    Converter converter = new Won2Dollar();
+    converter.run();
   }
 }
