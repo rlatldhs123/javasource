@@ -27,6 +27,7 @@ public class MyShop implements IShop {
     customer.setPayType(PayType.CARD);
     customers[0] = customer;
     //
+
     customer = new Customer();
     customer.setName("이춘향");
     customer.setPayType(PayType.CARD);
@@ -156,11 +157,19 @@ public class MyShop implements IShop {
     System.out.println("=========================");
 
     int i = 0, total = 0;
+
+    for (int j = 0; j < carts.length; j++) {
+      //Product product = carts[i];
+      if (carts[i] != null) {
+        System.out.println(carts[i].getPname());
+      }
+    }
+
     for (Product product : carts) {
       if (product != null) {
         System.out.printf(
           "[%d]  %s  %d\n",
-          i,
+          i++,
           product.getPname(),
           product.getPrice()
         );
