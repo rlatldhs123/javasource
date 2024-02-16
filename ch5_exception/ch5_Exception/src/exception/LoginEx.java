@@ -18,11 +18,23 @@ public class LoginEx {
     String pass = sc.nextLine();
 
     try {
-      loginService.login(id, pass);
-    } catch (NotExisitIdException e) {
-      e.printStackTrace();
+        login(id, pass);
+    } catch (NotExisitIdException | WrongPasswordException e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
     }
 
     sc.close();
+  }
+
+
+  public static void login(String id, String pass) throws NotExisitIdException, WrongPasswordException {
+    if (!id.equals("tldhs") ) {
+      throw new NotExisitIdException("아이디 를 확인해주세요");
+    } 
+
+    if(!pass.equals("12345")){
+        throw new WrongPasswordException("비밀번호를 확인해주세요");
+    }
   }
 }
