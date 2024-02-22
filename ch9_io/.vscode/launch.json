@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IoEx1",
+      "request": "launch",
+      "mainClass": "io.IoEx1",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "IoEx",
+      "request": "launch",
+      "mainClass": "io.IoEx",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "SerialEx",
+      "request": "launch",
+      "mainClass": "io.SerialEx",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "DataStreamEx",
+      "request": "launch",
+      "mainClass": "io.DataStreamEx",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "BufferdStreamEx2",
+      "request": "launch",
+      "mainClass": "io.BufferdStreamEx2",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "BufferdStreamEx1",
+      "request": "launch",
+      "mainClass": "io.BufferdStreamEx1",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "FileWriterEx2",
+      "request": "launch",
+      "mainClass": "io.FileWriterEx2",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
+      "name": "FileWriterEx1",
+      "request": "launch",
+      "mainClass": "io.FileWriterEx1",
+      "projectName": "ch9_io_15e5e4e8"
+    },
+    {
+      "type": "java",
       "name": "ReaderEx1",
       "request": "launch",
       "mainClass": "io.ReaderEx1",

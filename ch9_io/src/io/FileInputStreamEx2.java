@@ -57,9 +57,9 @@ public class FileInputStreamEx2 {
       //   out = System.out; // 화면이랑 연결
       // 카피 파일본 하나게 생김 복붙 개념
       int data = 0;
-      byte b[] = new byte[1024];
-      while ((data = in.read(b)) != -1) {
-        out.write(b);
+
+      while ((data = in.read(cbuf)) != -1) {
+        out.write(cbuf);
       }
     } catch (FileNotFoundException e) {
       e.printStackTrace();

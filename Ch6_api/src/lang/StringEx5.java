@@ -28,7 +28,7 @@ public class StringEx5 {
     while ((pos = src.indexOf(target, pos)) != -1) {
       cnt++;
       pos += target.length();
-    }ㅏㅣㅏㅣ
+    }
 
     return cnt;
   }

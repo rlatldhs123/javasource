@@ -61,7 +61,7 @@ public class ArraysEx {
     // Map<K,V> : K, v  == > 객체 타입
     // Collection<E> == > 객체 타입
     // Int ==> Interger 와 같은 형태로 바꾸어야 함
-    Integer arr3[] = { 27, 55, 15, 6, 9, 75 };
+    Integer arr3[] = { 27, 55, 15, 6, 9, 75 };, 
     Arrays.sort(arr3, Comparator.reverseOrder());
 
     String[] strarr = { "Cat", "Dog", "lion", "tiger", " apple", "zoo" };
