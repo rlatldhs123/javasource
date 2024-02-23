@@ -169,7 +169,7 @@ public class MemberDAO {
   }
 
   public MemberDTO getRow(String upid, String uppass) {
-    // TODO Auto-generated method stub
+    
     throw new UnsupportedOperationException("Unimplemented method 'getRow'");
   }
 }
